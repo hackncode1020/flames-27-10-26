@@ -201,7 +201,7 @@ function render(t) {
   }
   // result card
   const rp = back((s - P.sCard) / 0.45), rv = clamp((s - P.sCard) / 0.2);
-  const res = $('result'); res.style.opacity = rv; res.style.background = `rgba(20,2,2,${0.6 * rv})`;
+  const res = $('result'); res.style.opacity = rv; res.style.background = `rgba(20,2,2,${0.68 * rv})`;
   res.classList.toggle('on', rv > 0.5);
   $('rcard').style.transform = `scale(${0.5 + 0.5 * rp}) rotate(${(1 - clamp(rp)) * -6}deg)`;
   $('remo').style.transform = `scale(${1 + 0.15 * Math.sin(Math.max(0, s - P.sCard) * 6)})`;
