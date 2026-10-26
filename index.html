@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>FLAMES 🔥 — the school love game, coded | @hack.n.code</title>
+<meta name="description" content="Type your name and your crush's name. FLAMES tells you: Friends, Love, Affection, Marriage, Enemies or Siblings 😂">
+<meta property="og:title" content="FLAMES 🔥 — the school love game, but coded">
+<meta property="og:description" content="Your name ❤️ their name → Friends, Love, Affection, Marriage, Enemies or Siblings? Check now 😂">
+<meta name="theme-color" content="#1a0606">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Poppins:wght@500;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="embers"></div>
+<main id="app">
+  <header class="top">
+    <h1 class="logo"><span class="fl">FLAMES</span> <span class="fire">🔥</span></h1>
+    <p class="sub">the school love game — but I <b>coded</b> it 😂</p>
+  </header>
+
+  <section class="form" id="form">
+    <label class="fld"><span>Your name</span><input id="a" maxlength="24" autocomplete="off" placeholder="Your name" enterkeyhint="next"></label>
+    <div class="heart">❤️</div>
+    <label class="fld"><span>Their name</span><input id="b" maxlength="24" autocomplete="off" placeholder="Their name" enterkeyhint="go"></label>
+    <button id="go" class="go">Check FLAMES 🔥</button>
+  </section>
+
+  <section class="stage" id="stage">
+    <div class="paper">
+      <div class="status" id="status">Write two names ✍️</div>
+      <div class="row" id="rowA"></div>
+      <div class="plus">+</div>
+      <div class="row" id="rowB"></div>
+      <div class="count" id="count"><span id="cn">0</span> letters left</div>
+      <div class="flames" id="flames"></div>
+    </div>
+  </section>
+
+  <footer class="foot">Made by <a href="https://instagram.com/hack.n.code" target="_blank" rel="noopener">@hack.n.code</a> 💻</footer>
+</main>
+
+<div class="result" id="result">
+  <div class="rcard" id="rcard">
+    <div class="remo" id="remo">💍</div>
+    <div class="rword" id="rword">MARRIAGE</div>
+    <div class="rline" id="rline">Shaadi pakki! 😂</div>
+    <div class="rnames" id="rnames">You ❤️ Crush</div>
+    <div class="rbtns">
+      <button class="share" id="share">Share your result 📤</button>
+      <button class="again" id="again">Try again 🔁</button>
+    </div>
+    <div class="rby">FLAMES by @hack.n.code</div>
+  </div>
+</div>
+<canvas id="fx"></canvas>
+<div class="toast" id="toast"></div>
+<script src="script.js"></script>
+</body>
+</html>
