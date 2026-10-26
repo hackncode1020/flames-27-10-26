@@ -44,14 +44,14 @@ function flames(a, b) {
 }
 ```
 
-Example: **Rahul + Priya** → cut `r`, `a` → 6 left → S, F, A, L, E burn → **M = Marriage 💍**
+Example: **Rahul + Bhumi** → cut `h`, `u` → 6 left → S, F, A, L, E burn → **M = Marriage 💍**
 
 ## Share a ready-made result
 
 Add `?a=` and `?b=` to the link and it fills the names and plays automatically:
 
 ```
-https://flames-hackncode.sites.tab.bot/?a=Rahul&b=Priya
+https://flames-hackncode.sites.tab.bot/?a=Rahul&b=Bhumi
 ```
 
 ## Files
