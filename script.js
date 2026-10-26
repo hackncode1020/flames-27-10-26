@@ -63,7 +63,7 @@ function plan(sol) {
 const qs = new URLSearchParams(location.search);
 const CAP = qs.get('capture') === '1';
 if (CAP) document.body.classList.add('cap');
-const DEMO = { a: qs.get('da') || 'Rahul', b: qs.get('db') || 'Bhumi' };
+const DEMO = { a: qs.get('da') || 'Rahul', b: qs.get('db') || 'Priya' };
 const T0 = CAP ? 1.2 : 0;          // capture: names are typed first
 let sol = null, P = null, tiles = { A: [], B: [] }, fl6 = [], names = { a: '', b: '' };
 
